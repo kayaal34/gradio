@@ -108,7 +108,7 @@ In order to provide a guided set of ordered steps, a controlled workflow, you ca
 
 The `Walkthrough` component has a visual style and user experience tailored for this usecase.
 
-Authoring this component is very similar to `Tab`, except it is the app developers responsibility to progress through each step, by setting the appropriate ID for the parent `Walkthrough` which should correspond to an ID provided to an indvidual `Step`. 
+Authoring this component is very similar to `Tab`, except it is the app developers responsibility to progress through each step, by setting the appropriate ID for the parent `Walkthrough` which should correspond to an ID provided to an individual `Step`. 
 
 $demo_walkthrough
 

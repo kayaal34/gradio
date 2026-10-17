@@ -19,7 +19,7 @@ gradio cc docs
   --generate-space # create a documentation space.
   --no-generate-space # do not create a documentation space
   --readme-path # Path to the README.md file.
-  --generate-readme # create a REAMDE.md file
+  --generate-readme # create a README.md file
   --no-generate-readme # do not create a README.md file
   --suppress-demo-check # suppress validation checks and warnings
 ```

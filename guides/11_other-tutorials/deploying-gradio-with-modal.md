@@ -62,7 +62,7 @@ web_image = modal.Image.debian_slim(python_version="3.12").uv_pip_install(
 )
 ```
 
-Note, that you don't need to install `gradio` or `fastapi` in your local environement - only `modal` is required locally.
+Note, that you don't need to install `gradio` or `fastapi` in your local environment - only `modal` is required locally.
 
 ### Step 2: Wrap the Gradio app in a Modal-deployed FastAPI app
 Like many Gradio apps, the example above is run by calling `launch()` on our demo at the end of the script. However, Modal doesn't run scripts, it runs functions - serverless functions to be exact.

@@ -34,7 +34,7 @@ Additionally, the cache will be deleted entirely when the server restarts.
 ## The `unload` event
 
 Additionally, Gradio now includes a `Blocks.unload()` event, allowing you to run arbitrary cleanup functions when users disconnect (this does not have a 60 minute delay).
-Unlike other gradio events, this event does not accept inputs or outptus.
+Unlike other gradio events, this event does not accept inputs or outputs.
 You can think of the `unload` event as the opposite of the `load` event.
 
 ## Putting it all together
